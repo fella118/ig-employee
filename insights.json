@@ -1,1 +1,23 @@
-{"snapshots": []}
+{
+ "snapshots": [
+  {
+   "date": "2026-10-01",
+   "followers": 470,
+   "media_count": 22,
+   "posts": {
+    "carousel-immo-luxe": {
+     "type": "carousel",
+     "trial": null,
+     "published_at": "2026-10-01T20:31:59+00:00",
+     "reach": 0,
+     "views": 0,
+     "likes": 1,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 2
+    }
+   }
+  }
+ ]
+}
