@@ -1,0 +1,88 @@
+{
+ "posts": [
+  {
+   "id": "carousel-immo-luxe",
+   "type": "carousel",
+   "files": [
+    "media/carousel-immo-luxe/01.jpg",
+    "media/carousel-immo-luxe/02.jpg",
+    "media/carousel-immo-luxe/03.jpg",
+    "media/carousel-immo-luxe/04.jpg",
+    "media/carousel-immo-luxe/05.jpg",
+    "media/carousel-immo-luxe/06.jpg",
+    "media/carousel-immo-luxe/07.jpg"
+   ],
+   "cover": null,
+   "caption": "Le haut standing ne manque pas de demandes. Il manque d'acheteurs qualifiés avant la visite.\n\nUne brochure envoyée, puis plus rien. Des visites avec des curieux. Un acheteur MRE qui attend une réponse jusqu'au lendemain.\n\n👉 On regarde le parcours de vos acheteurs et on vous montre où ils décrochent. Plan de croissance offert, lien en bio.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
+   "publish_at": "2026-10-01T20:15+01:00",
+   "ai_label": true,
+   "status": "scheduled"
+  },
+  {
+   "id": "reel-01-dentaire-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-01-dentaire-fr/video.mp4"
+   ],
+   "cover": "media/reel-01-dentaire-fr/cover.jpg",
+   "caption": "Implants, facettes, orthodontie : le blocage n'est presque jamais au fauteuil. Il est entre le devis et le rendez-vous.\n\n👉 On regarde le parcours de vos patients et on vous montre où ils décrochent. Plan de croissance offert, lien en bio.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
+   "publish_at": "2026-10-02T12:00+01:00",
+   "ai_label": true,
+   "status": "scheduled"
+  },
+  {
+   "id": "carousel-reno-construction",
+   "type": "carousel",
+   "files": [
+    "media/carousel-reno-construction/01.jpg",
+    "media/carousel-reno-construction/02.jpg",
+    "media/carousel-reno-construction/03.jpg",
+    "media/carousel-reno-construction/04.jpg",
+    "media/carousel-reno-construction/05.jpg",
+    "media/carousel-reno-construction/06.jpg",
+    "media/carousel-reno-construction/07.jpg"
+   ],
+   "cover": null,
+   "caption": "Vos soirées partent en devis, pour des chantiers qui ne se feront pas.\n\nCe n'est pas un problème de prix ni de qualité. Vous n'avez pas le temps de trier, alors tout le monde reçoit la même attention.\n\n👉 On regarde vos demandes et on vous montre lesquelles méritent un déplacement. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
+   "publish_at": "2026-10-02T13:00+01:00",
+   "ai_label": true,
+   "status": "scheduled"
+  },
+  {
+   "id": "reel-04-esthetique-da",
+   "type": "reel",
+   "files": [
+    "media/reel-04-esthetique-da/video.mp4"
+   ],
+   "cover": "media/reel-04-esthetique-da/cover.jpg",
+   "caption": "الماكينة كتخلصها كل شهر، والبلايص الخاويين حتى هوما. الكور كتتباع ببيلان، ماشي بالثمن.\n\n👈 كنشوفو الطلبات والبلايص ديالك وكنوريو ليك فين كتضيع الكور. خطة النمو فابور، الرابط ف البيو.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
+   "publish_at": "2026-10-02T14:00+01:00",
+   "ai_label": true,
+   "status": "scheduled"
+  },
+  {
+   "id": "reel-05-immo-luxe-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-05-immo-luxe-fr/video.mp4"
+   ],
+   "cover": "media/reel-05-immo-luxe-fr/cover.jpg",
+   "caption": "Les demandes ne manquent pas. Il manque l'acheteur qualifié avant la visite.\n\n👉 On regarde le parcours de vos acheteurs et on vous montre où ils décrochent. Plan de croissance offert, lien en bio.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
+   "publish_at": "2026-10-02T15:00+01:00",
+   "ai_label": true,
+   "status": "scheduled"
+  },
+  {
+   "id": "reel-08-reno-construction-da",
+   "type": "reel",
+   "files": [
+    "media/reel-08-reno-construction-da/video.mp4"
+   ],
+   "cover": "media/reel-08-reno-construction-da/cover.jpg",
+   "caption": "العشيات ديالك كيمشيو فالدوفيات، على شانطيات ما غاديش يتدارو. ما عندكش الوقت باش تفرز.\n\n👈 كنشوفو الطلبات ديالك وكنوريو ليك شكون يستاهل التنقل. خطة النمو فابور، الرابط ف البيو.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
+   "publish_at": "2026-10-02T16:00+01:00",
+   "ai_label": true,
+   "status": "scheduled"
+  }
+ ]
+}
