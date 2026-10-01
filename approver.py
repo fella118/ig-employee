@@ -41,9 +41,8 @@ def queue_text(q, s):
 def handle_updates(q, s):
     cid = tg.chat_id(s)
     ups = tg.api('getUpdates', offset=s['offset'], timeout=0, allowed_updates=['message', 'callback_query'])
-    if not cid:                                             # masked, the repo log is public
-        name = tg.api('getMe').get('username', '?')
-        print(f'not paired yet: bot @{name[:3]}…{name[-3:]}, {len(ups)} new message(s)')
+    if not cid:                                             # nothing identifying: the repo log is public
+        print(f'not paired yet: {len(ups)} new message(s)')
     for u in ups:
         s['offset'] = u['update_id'] + 1
         if 'message' in u:
