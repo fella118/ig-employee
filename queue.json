@@ -316,7 +316,8 @@
    "status": "scheduled",
    "trial": "SS_PERFORMANCE",
    "story": false,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 39
   },
   {
    "id": "reel-15-reno-construction-fr",
@@ -331,7 +332,8 @@
    "status": "scheduled",
    "trial": "SS_PERFORMANCE",
    "story": false,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 41
   },
   {
    "id": "carousel3-immo-luxe",
@@ -352,7 +354,8 @@
    "status": "scheduled",
    "trial": null,
    "story": true,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 49
   },
   {
    "id": "reel-12-esthetique-da",
@@ -367,7 +370,8 @@
    "status": "scheduled",
    "trial": "SS_PERFORMANCE",
    "story": false,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 51
   }
  ]
 }
