@@ -170,7 +170,8 @@
    "status": "scheduled",
    "trial": "SS_PERFORMANCE",
    "story": false,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 5
   },
   {
    "id": "carousel3-esthetique",
@@ -191,7 +192,8 @@
    "status": "scheduled",
    "trial": null,
    "story": true,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 13
   },
   {
    "id": "reel-14-immo-luxe-da",
@@ -206,7 +208,8 @@
    "status": "scheduled",
    "trial": "SS_PERFORMANCE",
    "story": false,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 15
   },
   {
    "id": "reel-11-esthetique-fr",
@@ -221,7 +224,8 @@
    "status": "scheduled",
    "trial": "SS_PERFORMANCE",
    "story": false,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 17
   },
   {
    "id": "carousel3-dentaire",
@@ -242,7 +246,8 @@
    "status": "scheduled",
    "trial": null,
    "story": true,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 25
   },
   {
    "id": "reel-16-reno-construction-da",
@@ -257,7 +262,8 @@
    "status": "scheduled",
    "trial": "SS_PERFORMANCE",
    "story": false,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 27
   },
   {
    "id": "reel-13-immo-luxe-fr",
@@ -272,7 +278,8 @@
    "status": "scheduled",
    "trial": "SS_PERFORMANCE",
    "story": false,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 29
   },
   {
    "id": "carousel3-reno-construction",
@@ -293,7 +300,8 @@
    "status": "scheduled",
    "trial": null,
    "story": true,
-   "approval": "pending"
+   "approval": "pending",
+   "tg_msg": 37
   },
   {
    "id": "reel-10-dentaire-da",

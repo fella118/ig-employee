@@ -1,6 +1,7 @@
 {
  "require_approval": true,
  "paused": false,
- "chat": null,
- "offset": 0
+ "chat": "6ea74f6cf7a4b1724403",
+ "offset": 293842421,
+ "paired_at": "2026-10-01T21:28:00+00:00"
 }
