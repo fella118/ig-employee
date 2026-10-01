@@ -70,7 +70,7 @@ def add(a):
     q['posts'].append({'id': pid, 'type': a.type, 'files': files, 'cover': cover, 'caption': caption,
                        'publish_at': when(a.at), 'ai_label': not a.no_ai_label, 'status': 'scheduled',
                        'trial': a.trial if a.type == 'reel' else None, 'story': a.story,
-                       'approval': 'approved' if a.approved else 'pending'})
+                       'approval': 'approved' if a.approved else 'pending', 'tag': a.tag})
     q['posts'].sort(key=lambda p: p['publish_at'])
     save(q)
     print('queued', pid, when(a.at))
@@ -123,6 +123,7 @@ for t in ('reel', 'carousel', 'image'):
     s.add_argument('--trial', choices=['MANUAL', 'SS_PERFORMANCE'], help='reels only: publish as a trial reel')
     s.add_argument('--story', action='store_true', help='also repost to Stories (cover or first slide)')
     s.add_argument('--approved', action='store_true', help='owner already approved it in chat: no Telegram preview')
+    s.add_argument('--tag', help='what the post answers, e.g. Q1..Q5 (buyer questions), for the weekly analysis')
     s.set_defaults(func=add, type=t)
 sub.add_parser('list').set_defaults(func=show)
 r = sub.add_parser('remove'); r.add_argument('pid'); r.set_defaults(func=remove)
