@@ -88,6 +88,8 @@ def publish(ig, post, base):
              'share_to_feed': 'true', 'is_ai_generated': ai}
         if post.get('cover'):
             p['cover_url'] = url(post['cover'])
+        if post.get('trial'):              # trial reel: shown to non-followers first (MANUAL or SS_PERFORMANCE)
+            p['trial_params'] = json.dumps({'graduation_strategy': post['trial']})
         c = call('POST', f'{ig}/media', p)['id']
         wait_ready(c)
     elif post['type'] == 'carousel':
@@ -108,6 +110,17 @@ def publish(ig, post, base):
     except Exception:
         link = ''
     return m, link
+
+
+def story(ig, post, base):
+    """Repost a published post to Stories as an image (reel cover or first slide). The API has no
+    'share post to story' sticker, so the story is a plain image; it expires after 24 h."""
+    img = post.get('cover') or (post['files'][0] if post['type'] != 'reel' else None)
+    if not img:
+        return None
+    c = call('POST', f'{ig}/media', {'media_type': 'STORIES', 'image_url': base + img})['id']
+    wait_ready(c, 300)
+    return call('POST', f'{ig}/media_publish', {'creation_id': c})['id']
 
 
 def token_check():
@@ -160,7 +173,14 @@ def main():
             try:
                 mid, link = publish(ig, p, base)
                 p.update(status='published', published_at=now().isoformat(timespec='seconds'), media_id=mid, permalink=link)
-                line = f'- {p["published_at"]} PUBLISHED {p["id"]} ({p["type"]}) {link}'
+                line = f'- {p["published_at"]} PUBLISHED {p["id"]} ({p["type"]}{", trial" if p.get("trial") else ""}) {link}'
+                if p.get('story'):
+                    try:
+                        p['story_id'] = story(ig, p, base)
+                        line += ' + story'
+                    except Exception as e:     # a failed story never fails the post itself
+                        p['story_error'] = str(e)[:300]
+                        line += f' (story failed: {str(e)[:120]})'
             except LookupError as e:          # Pages not deployed yet: try again next run, no attempt counted
                 line = f'- {now().isoformat(timespec="seconds")} WAITING {p["id"]}: {e}'
             except Exception as e:

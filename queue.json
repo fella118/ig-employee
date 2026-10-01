@@ -29,9 +29,10 @@
    ],
    "cover": "media/reel-01-dentaire-fr/cover.jpg",
    "caption": "Implants, facettes, orthodontie : le blocage n'est presque jamais au fauteuil. Il est entre le devis et le rendez-vous.\n\n👉 On regarde le parcours de vos patients et on vous montre où ils décrochent. Plan de croissance offert, lien en bio.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
-   "publish_at": "2026-10-02T12:00+01:00",
+   "publish_at": "2026-10-02T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled"
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE"
   },
   {
    "id": "carousel-reno-construction",
@@ -47,9 +48,10 @@
    ],
    "cover": null,
    "caption": "Vos soirées partent en devis, pour des chantiers qui ne se feront pas.\n\nCe n'est pas un problème de prix ni de qualité. Vous n'avez pas le temps de trier, alors tout le monde reçoit la même attention.\n\n👉 On regarde vos demandes et on vous montre lesquelles méritent un déplacement. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
-   "publish_at": "2026-10-02T13:00+01:00",
+   "publish_at": "2026-10-02T17:30+01:00",
    "ai_label": true,
-   "status": "scheduled"
+   "status": "scheduled",
+   "story": true
   },
   {
    "id": "reel-04-esthetique-da",
@@ -59,9 +61,10 @@
    ],
    "cover": "media/reel-04-esthetique-da/cover.jpg",
    "caption": "الماكينة كتخلصها كل شهر، والبلايص الخاويين حتى هوما. الكور كتتباع ببيلان، ماشي بالثمن.\n\n👈 كنشوفو الطلبات والبلايص ديالك وكنوريو ليك فين كتضيع الكور. خطة النمو فابور، الرابط ف البيو.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
-   "publish_at": "2026-10-02T14:00+01:00",
+   "publish_at": "2026-10-02T21:00+01:00",
    "ai_label": true,
-   "status": "scheduled"
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE"
   },
   {
    "id": "reel-05-immo-luxe-fr",
@@ -71,9 +74,66 @@
    ],
    "cover": "media/reel-05-immo-luxe-fr/cover.jpg",
    "caption": "Les demandes ne manquent pas. Il manque l'acheteur qualifié avant la visite.\n\n👉 On regarde le parcours de vos acheteurs et on vous montre où ils décrochent. Plan de croissance offert, lien en bio.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
-   "publish_at": "2026-10-02T15:00+01:00",
+   "publish_at": "2026-10-03T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled"
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE"
+  },
+  {
+   "id": "reel-02-dentaire-da",
+   "type": "reel",
+   "files": [
+    "media/reel-02-dentaire-da/video.mp4"
+   ],
+   "cover": "media/reel-02-dentaire-da/cover.jpg",
+   "caption": "الزرع، الفاسيت، التقويم: المشكل ماشي فالكرسي. المشكل بين الدوفي والموعد.\n\n👈 كنشوفو المسار ديال المرضى ديالك وكنوريو ليك فين كيطيحو. خطة النمو فابور، الرابط ف البيو.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
+   "publish_at": "2026-10-03T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false
+  },
+  {
+   "id": "reel-07-reno-construction-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-07-reno-construction-fr/video.mp4"
+   ],
+   "cover": "media/reel-07-reno-construction-fr/cover.jpg",
+   "caption": "Vos soirées partent en devis, pour des chantiers qui ne se feront pas. Vous n'avez pas le temps de trier.\n\n👉 On regarde vos demandes et on vous montre lesquelles méritent un déplacement. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
+   "publish_at": "2026-10-03T21:00+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false
+  },
+  {
+   "id": "reel-03-esthetique-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-03-esthetique-fr/video.mp4"
+   ],
+   "cover": "media/reel-03-esthetique-fr/cover.jpg",
+   "caption": "Votre machine est payée chaque mois. Les créneaux vides aussi. Une cure se vend avec un bilan, pas avec un tarif.\n\n👉 On regarde vos demandes et vos créneaux, et on vous montre où les cures se perdent. Plan de croissance offert, lien en bio.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
+   "publish_at": "2026-10-04T12:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false
+  },
+  {
+   "id": "reel-06-immo-luxe-da",
+   "type": "reel",
+   "files": [
+    "media/reel-06-immo-luxe-da/video.mp4"
+   ],
+   "cover": "media/reel-06-immo-luxe-da/cover.jpg",
+   "caption": "الطلبات كاينين. اللي ناقص هو الشاري الجدي قبل الزيارة.\n\n👈 كنشوفو المسار ديال الشرايين ديالك وكنوريو ليك فين كيطيحو. خطة النمو فابور، الرابط ف البيو.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
+   "publish_at": "2026-10-04T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false
   },
   {
    "id": "reel-08-reno-construction-da",
@@ -83,9 +143,10 @@
    ],
    "cover": "media/reel-08-reno-construction-da/cover.jpg",
    "caption": "العشيات ديالك كيمشيو فالدوفيات، على شانطيات ما غاديش يتدارو. ما عندكش الوقت باش تفرز.\n\n👈 كنشوفو الطلبات ديالك وكنوريو ليك شكون يستاهل التنقل. خطة النمو فابور، الرابط ف البيو.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
-   "publish_at": "2026-10-02T16:00+01:00",
+   "publish_at": "2026-10-04T21:00+01:00",
    "ai_label": true,
-   "status": "scheduled"
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE"
   }
  ]
 }

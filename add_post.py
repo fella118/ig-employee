@@ -65,7 +65,8 @@ def add(a):
     if a.type == 'carousel' and not 2 <= len(files) <= 10:
         sys.exit('a carousel needs 2 to 10 images')
     q['posts'].append({'id': pid, 'type': a.type, 'files': files, 'cover': cover, 'caption': caption,
-                       'publish_at': when(a.at), 'ai_label': not a.no_ai_label, 'status': 'scheduled'})
+                       'publish_at': when(a.at), 'ai_label': not a.no_ai_label, 'status': 'scheduled',
+                       'trial': a.trial if a.type == 'reel' else None, 'story': a.story})
     q['posts'].sort(key=lambda p: p['publish_at'])
     save(q)
     print('queued', pid, when(a.at))
@@ -74,7 +75,8 @@ def add(a):
 def show(_):
     for p in load()['posts']:
         extra = p.get('permalink') or p.get('last_error', '')[:80]
-        print(f"{p['publish_at']}  {p['status']:<10} {p['type']:<8} {p['id']}  {extra}")
+        flags = ('T' if p.get('trial') else '-') + ('S' if p.get('story') else '-')
+        print(f"{p['publish_at']}  {p['status']:<10} {p['type']:<8} {flags} {p['id']}  {extra}")
 
 
 def remove(a):
@@ -110,9 +112,26 @@ for t in ('reel', 'carousel', 'image'):
     s.add_argument('--cover')
     s.add_argument('--id')
     s.add_argument('--no-ai-label', action='store_true')
+    s.add_argument('--trial', choices=['MANUAL', 'SS_PERFORMANCE'], help='reels only: publish as a trial reel')
+    s.add_argument('--story', action='store_true', help='also repost to Stories (cover or first slide)')
     s.set_defaults(func=add, type=t)
 sub.add_parser('list').set_defaults(func=show)
 r = sub.add_parser('remove'); r.add_argument('pid'); r.set_defaults(func=remove)
 m = sub.add_parser('move'); m.add_argument('pid'); m.add_argument('at'); m.set_defaults(func=move)
+
+
+def setopt(a):
+    q = load()
+    p = next(p for p in q['posts'] if p['id'] == a.pid)
+    if a.trial is not None:
+        p['trial'] = None if a.trial == 'off' else a.trial
+    if a.story is not None:
+        p['story'] = a.story == 'on'
+    save(q)
+    print('updated', a.pid, 'trial=', p.get('trial'), 'story=', p.get('story'))
+
+
+o = sub.add_parser('set'); o.add_argument('pid'); o.add_argument('--trial', choices=['off', 'MANUAL', 'SS_PERFORMANCE'])
+o.add_argument('--story', choices=['on', 'off']); o.set_defaults(func=setopt)
 a = ap.parse_args()
 a.func(a)

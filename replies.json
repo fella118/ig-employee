@@ -1,0 +1,22 @@
+{
+ "enabled": false,
+ "since": "2026-10-02T00:00:00+00:00",
+ "max_per_run": 10,
+ "interest_words": ["plan", "info", "intéress", "interess", "prix", "tarif", "combien", "comment", "dm", "contact", "rdv", "rendez", "devis", "بغيت", "شحال", "بشحال", "كيفاش", "معلومات", "تواصل", "الثمن"],
+ "praise_words": ["merci", "bravo", "top", "excellent", "vrai", "exact", "génial", "genial", "🔥", "👏", "💯", "❤", "شكرا", "زوين", "صحيح", "مزيان", "عندك الحق", "برافو"],
+ "skip_words": ["arnaque", "scam", "fake", "escro", "nul ", "حرام", "نصاب", "شفار", "follow back", "check my", "promo code"],
+ "templates": {
+  "interest": {
+   "fr": "Merci pour votre message 🙏 Le plan de croissance offert est dans le lien en bio. Écrivez-nous en DM si vous voulez qu'on regarde votre cas.",
+   "da": "شكرا على الميساج 🙏 خطة النمو فابور كاينة فالرابط ف البيو. صيفط لينا ميساج إلا بغيتي نشوفو الحالة ديالك."
+  },
+  "praise": {
+   "fr": "Merci beaucoup 🙏",
+   "da": "شكرا بزاف 🙏"
+  },
+  "default": {
+   "fr": "Merci pour votre commentaire 🙏 Dites-nous votre secteur, on vous dit où ça bloque le plus souvent.",
+   "da": "شكرا على التعليق 🙏 قول لينا شنو المجال ديالك، ونقولو ليك فين كيوقف الشغل غالبا."
+  }
+ }
+}
