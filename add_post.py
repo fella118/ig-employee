@@ -6,6 +6,9 @@
   add_post.py list
   add_post.py remove ID        (only posts that are not published yet)
   add_post.py move ID "2026-10-03 20:00"
+  add_post.py approve ID [ID ...]   (owner said yes in chat; Telegram buttons do the same)
+
+New posts wait for the owner's OK (Telegram preview with Approve/Skip) unless --approved is given.
 
 Times are Morocco time (UTC+1) unless an explicit offset is given. Images are converted to JPEG
 (the Instagram API only accepts JPEG). Files are copied into media/<id>/ so GitHub Pages can serve them.
@@ -66,7 +69,8 @@ def add(a):
         sys.exit('a carousel needs 2 to 10 images')
     q['posts'].append({'id': pid, 'type': a.type, 'files': files, 'cover': cover, 'caption': caption,
                        'publish_at': when(a.at), 'ai_label': not a.no_ai_label, 'status': 'scheduled',
-                       'trial': a.trial if a.type == 'reel' else None, 'story': a.story})
+                       'trial': a.trial if a.type == 'reel' else None, 'story': a.story,
+                       'approval': 'approved' if a.approved else 'pending'})
     q['posts'].sort(key=lambda p: p['publish_at'])
     save(q)
     print('queued', pid, when(a.at))
@@ -75,7 +79,8 @@ def add(a):
 def show(_):
     for p in load()['posts']:
         extra = p.get('permalink') or p.get('last_error', '')[:80]
-        flags = ('T' if p.get('trial') else '-') + ('S' if p.get('story') else '-')
+        flags = ('T' if p.get('trial') else '-') + ('S' if p.get('story') else '-') + \
+                {'approved': 'A', 'skipped': 'X'}.get(p.get('approval'), '?')
         print(f"{p['publish_at']}  {p['status']:<10} {p['type']:<8} {flags} {p['id']}  {extra}")
 
 
@@ -94,9 +99,12 @@ def move(a):
     q = load()
     p = next(p for p in q['posts'] if p['id'] == a.pid)
     p['publish_at'] = when(a.at)
-    if p['status'] in ('failed', 'retry'):
+    if p['status'] in ('failed', 'retry', 'expired', 'skipped'):
+        if p['status'] in ('expired', 'skipped'):      # back to the phone for a fresh OK
+            p.update(approval='pending', tg_msg=None)
         p['status'] = 'scheduled'
         p['attempts'] = 0
+    p.pop('reminded', None)
     q['posts'].sort(key=lambda p: p['publish_at'])
     save(q)
     print('moved', a.pid, p['publish_at'])
@@ -114,6 +122,7 @@ for t in ('reel', 'carousel', 'image'):
     s.add_argument('--no-ai-label', action='store_true')
     s.add_argument('--trial', choices=['MANUAL', 'SS_PERFORMANCE'], help='reels only: publish as a trial reel')
     s.add_argument('--story', action='store_true', help='also repost to Stories (cover or first slide)')
+    s.add_argument('--approved', action='store_true', help='owner already approved it in chat: no Telegram preview')
     s.set_defaults(func=add, type=t)
 sub.add_parser('list').set_defaults(func=show)
 r = sub.add_parser('remove'); r.add_argument('pid'); r.set_defaults(func=remove)
@@ -133,5 +142,19 @@ def setopt(a):
 
 o = sub.add_parser('set'); o.add_argument('pid'); o.add_argument('--trial', choices=['off', 'MANUAL', 'SS_PERFORMANCE'])
 o.add_argument('--story', choices=['on', 'off']); o.set_defaults(func=setopt)
+
+
+def approve(a):
+    """Record an approval the owner gave in chat (the Telegram buttons do the same)."""
+    q = load()
+    for pid in a.pids:
+        p = next(p for p in q['posts'] if p['id'] == pid)
+        p['approval'] = a.state
+        print(pid, a.state)
+    save(q)
+
+
+for name, state in (('approve', 'approved'), ('unapprove', 'pending')):
+    v = sub.add_parser(name); v.add_argument('pids', nargs='+'); v.set_defaults(func=approve, state=state)
 a = ap.parse_args()
 a.func(a)

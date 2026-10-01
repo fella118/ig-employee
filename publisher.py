@@ -9,6 +9,7 @@ Env:
   GITHUB_REPOSITORY, GITHUB_TOKEN, GITHUB_STEP_SUMMARY  (provided by GitHub Actions)
 """
 import json, os, sys, time, datetime as dt, urllib.request, urllib.parse, urllib.error, pathlib
+import tg
 
 ROOT = pathlib.Path(__file__).resolve().parent
 QUEUE = ROOT / 'queue.json'
@@ -139,33 +140,45 @@ def token_check():
 
 
 def open_issue(title, body):
+    """Open a GitHub issue unless one with the same title is already open. True when created."""
     tok, repo = os.environ.get('GITHUB_TOKEN'), os.environ.get('GITHUB_REPOSITORY')
     if not (tok and repo):
-        return
-    req = urllib.request.Request(f'https://api.github.com/repos/{repo}/issues', method='POST',
-                                 data=json.dumps({'title': title, 'body': body}).encode(),
-                                 headers={'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'})
+        return False
+    h = {'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'}
     try:
-        urllib.request.urlopen(req, timeout=30)
+        with urllib.request.urlopen(urllib.request.Request(
+                f'https://api.github.com/repos/{repo}/issues?state=open&per_page=100', headers=h), timeout=30) as r:
+            if any(i['title'] == title for i in json.load(r)):
+                return False
+        urllib.request.urlopen(urllib.request.Request(f'https://api.github.com/repos/{repo}/issues', method='POST',
+                               data=json.dumps({'title': title, 'body': body}).encode(), headers=h), timeout=30)
+        return True
     except Exception as e:
         print('issue not created:', e)
+        return False
 
 
 def main():
     q = json.loads(QUEUE.read_text(encoding='utf-8'))
+    ts = tg.load()
+    cid = tg.chat_id(ts)
     due = [p for p in q['posts'] if p['status'] in ('scheduled', 'retry')
-           and dt.datetime.fromisoformat(p['publish_at']) <= now()]
+           and dt.datetime.fromisoformat(p['publish_at']) <= now()
+           and (not ts['require_approval'] or p.get('approval') == 'approved')]
     due.sort(key=lambda p: p['publish_at'])
     summary = []
     if not TOKEN:
         print('IG_ACCESS_TOKEN is not set; nothing published.')
         return
+    if ts['paused']:
+        print('paused from Telegram (/resume to restart)')
+        due = []
     warn = token_check()
     if warn:
         print('::warning::' + warn)
         summary.append(warn)
-        if 'INVALID' in warn or 'expires in' in warn:
-            open_issue('Instagram token needs renewing', warn)
+        if ('INVALID' in warn or 'expires in' in warn) and open_issue('Instagram token needs renewing', warn):
+            tg.notify('🔑 ' + warn)
     if due:
         ig = ig_user_id()
         base = media_base()
@@ -181,6 +194,8 @@ def main():
                     except Exception as e:     # a failed story never fails the post itself
                         p['story_error'] = str(e)[:300]
                         line += f' (story failed: {str(e)[:120]})'
+                tg.refresh(p, cid)
+                tg.notify(f'📤 Posted {p["id"]}{" + story" if p.get("story_id") else ""}\n{link}')
             except LookupError as e:          # Pages not deployed yet: try again next run, no attempt counted
                 line = f'- {now().isoformat(timespec="seconds")} WAITING {p["id"]}: {e}'
             except Exception as e:
@@ -190,6 +205,8 @@ def main():
                 line = f'- {now().isoformat(timespec="seconds")} ERROR {p["id"]} attempt {p["attempts"]}: {str(e)[:300]}'
                 if p['status'] == 'failed':
                     open_issue(f'Post {p["id"]} failed', p['last_error'])
+                    tg.refresh(p, cid)
+                    tg.notify(f'⚠️ {p["id"]} failed after {MAX_ATTEMPTS} tries. Tell Claude in the app, it will check the error.')
             print(line)
             summary.append(line)
             with LOG.open('a', encoding='utf-8') as f:

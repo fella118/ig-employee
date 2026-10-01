@@ -15,12 +15,18 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+      - name: Approvals from Telegram
+        continue-on-error: true
+        run: python3 approver.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       - name: Publish due posts
         run: python3 publisher.py
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN || secrets.IG_ACCES_TOKEN }}
           IG_USERNAME: sogixel
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       - name: Reply to new comments
         continue-on-error: true
         run: python3 comments.py
@@ -38,6 +44,6 @@ jobs:
         run: |
           git config user.name "ig-employee"
           git config user.email "ig-employee@users.noreply.github.com"
-          touch replied.json insights.json comments_log.md
-          git add queue.json log.md replied.json insights.json comments_log.md
+          touch replied.json insights.json comments_log.md telegram.json
+          git add queue.json log.md replied.json insights.json comments_log.md telegram.json
           git diff --cached --quiet || (git commit -m "publish run [skip ci]" && git pull --rebase && git push)
