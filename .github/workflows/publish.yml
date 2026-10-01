@@ -1,0 +1,29 @@
+name: publish
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish due posts
+        run: python3 publisher.py
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USERNAME: sogixel
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save queue status
+        run: |
+          git config user.name "ig-employee"
+          git config user.email "ig-employee@users.noreply.github.com"
+          git add queue.json log.md
+          git diff --cached --quiet || (git commit -m "publish run [skip ci]" && git pull --rebase && git push)
