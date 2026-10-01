@@ -1,7 +1,7 @@
 name: publish
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7,22,37,52 * * * *'     # every 15 min, off the busy :00 minute (GitHub delays those most)
   workflow_dispatch:
 permissions:
   contents: write
