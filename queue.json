@@ -397,6 +397,350 @@
    "approval": "pending",
    "tg_msg": 51,
    "tag": "Q5"
+  },
+  {
+   "id": "reel-17-dentaire-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-17-dentaire-fr/video.mp4"
+   ],
+   "cover": "media/reel-17-dentaire-fr/cover.jpg",
+   "caption": "Assistante, site, Instagram, parfois une agence : vous payez déjà. La vraie question, c'est combien de rendez-vous ça vous rapporte.\n\nLe budget n'est pas le problème. Ce qui coûte cher, c'est la demande qui attend jusqu'au lendemain.\n\n👉 On regarde ce que vous payez déjà et on vous montre ce que ça rapporte vraiment. Plan de croissance offert, lien en bio.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
+   "publish_at": "2026-10-09T12:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q1"
+  },
+  {
+   "id": "carousel4-immo-luxe",
+   "type": "carousel",
+   "files": [
+    "media/carousel4-immo-luxe/01.jpg",
+    "media/carousel4-immo-luxe/02.jpg",
+    "media/carousel4-immo-luxe/03.jpg",
+    "media/carousel4-immo-luxe/04.jpg",
+    "media/carousel4-immo-luxe/05.jpg",
+    "media/carousel4-immo-luxe/06.jpg",
+    "media/carousel4-immo-luxe/07.jpg"
+   ],
+   "cover": null,
+   "caption": "Pubs, salon, commerciaux, brochures. Combien d'acheteurs arrivent vraiment jusqu'à la visite ?\n\nLe budget n'est pas le problème : l'argent se perd entre la demande et la visite, quand personne ne répond le soir et que personne ne suit après.\n\n👉 On regarde ce que vous financez déjà et on vous montre où l'argent se perd. Plan de croissance offert, lien en bio.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
+   "publish_at": "2026-10-09T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": null,
+   "story": true,
+   "approval": "pending",
+   "tag": "Q1"
+  },
+  {
+   "id": "reel-18-esthetique-da",
+   "type": "reel",
+   "files": [
+    "media/reel-18-esthetique-da/video.mp4"
+   ],
+   "cover": "media/reel-18-esthetique-da/cover.jpg",
+   "caption": "الماكينة، الإشهار، والسكريتيرة: كلشي مخلص. السؤال هو شحال من كور بعتي هاد الشهر.\n\nالمشكل ماشي فالميزانية. اللي غالي بصح هو الميساج اللي كيتسنا حتى للغد.\n\n👈 كنشوفو شنو كتخلص دابا وكنوريو ليك شنو كيرجع ليك بصح. خطة النمو فابور، الرابط ف البيو.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
+   "publish_at": "2026-10-09T21:00+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q1"
+  },
+  {
+   "id": "reel-24-reno-construction-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-24-reno-construction-fr/video.mp4"
+   ],
+   "cover": "media/reel-24-reno-construction-fr/cover.jpg",
+   "caption": "Votre dernier chantier signé, il vient d'où ? Bouche-à-oreille, Facebook, un panneau ?\n\nCe qui ne se mesure pas ne s'améliore pas. Sans la source, vous payez la pub sans savoir ce qu'elle fait signer.\n\n👉 On regarde d'où viennent vos chantiers et on vous montre ce qui marche vraiment. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
+   "publish_at": "2026-10-10T12:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q2"
+  },
+  {
+   "id": "reel-21-dentaire-da",
+   "type": "reel",
+   "files": [
+    "media/reel-21-dentaire-da/video.mp4"
+   ],
+   "cover": "media/reel-21-dentaire-da/cover.jpg",
+   "caption": "آخر مريض دار الزرع عندك، منين جا؟ إلا ما عرفتيش، راك خدام بالعمى.\n\nاللي ما كيتحسبش ما كيتحسنش. سؤال واحد فأول ميساج كيكفي.\n\n👈 كنشوفو منين كيجيو المرضى ديالك وكنوريو ليك شنو خدام بصح. خطة النمو فابور، الرابط ف البيو.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
+   "publish_at": "2026-10-10T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q2"
+  },
+  {
+   "id": "reel-19-immo-luxe-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-19-immo-luxe-fr/video.mp4"
+   ],
+   "cover": "media/reel-19-immo-luxe-fr/cover.jpg",
+   "caption": "Pubs, salon, commerciaux, brochures. Combien d'acheteurs arrivent vraiment jusqu'à la visite ?\n\nL'argent ne se perd pas dans la pub. Il se perd entre la demande et la visite.\n\n👉 On regarde ce que vous financez déjà et on vous montre où l'argent se perd. Plan de croissance offert, lien en bio.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
+   "publish_at": "2026-10-10T21:00+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q1"
+  },
+  {
+   "id": "reel-22-esthetique-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-22-esthetique-fr/video.mp4"
+   ],
+   "cover": "media/reel-22-esthetique-fr/cover.jpg",
+   "caption": "Votre dernière cliente en cure, elle vient d'où ? Instagram, une amie, une pub ?\n\nCe qui ne se mesure pas ne s'améliore pas. Sans la source, vous coupez ou augmentez le budget au feeling.\n\n👉 On regarde d'où viennent vos clientes et on vous montre ce qui marche vraiment. Plan de croissance offert, lien en bio.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
+   "publish_at": "2026-10-11T12:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q2"
+  },
+  {
+   "id": "carousel4-esthetique",
+   "type": "carousel",
+   "files": [
+    "media/carousel4-esthetique/01.jpg",
+    "media/carousel4-esthetique/02.jpg",
+    "media/carousel4-esthetique/03.jpg",
+    "media/carousel4-esthetique/04.jpg",
+    "media/carousel4-esthetique/05.jpg",
+    "media/carousel4-esthetique/06.jpg",
+    "media/carousel4-esthetique/07.jpg"
+   ],
+   "cover": null,
+   "caption": "Votre dernière cliente en cure, elle vient d'où ? Instagram, une amie, une pub ?\n\nCe qui ne se mesure pas ne s'améliore pas. Une question au premier message suffit pour savoir enfin ce qui vend vos cures.\n\n👉 On regarde d'où viennent vos clientes et on vous montre ce qui marche vraiment. Plan de croissance offert, lien en bio.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
+   "publish_at": "2026-10-11T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": null,
+   "story": true,
+   "approval": "pending",
+   "tag": "Q2"
+  },
+  {
+   "id": "reel-20-reno-construction-da",
+   "type": "reel",
+   "files": [
+    "media/reel-20-reno-construction-da/video.mp4"
+   ],
+   "cover": "media/reel-20-reno-construction-da/cover.jpg",
+   "caption": "الإشهار، التيليفون، والمازوط: كلشي كتخلصو. شحال من دوفي قبلو الكليان هاد الشهر؟\n\nاللي غالي بصح هو التنقل لكليان ما شاريينش.\n\n👈 كنشوفو شنو كتخلص دابا وكنوريو ليك فين كيضيع. خطة النمو فابور، الرابط ف البيو.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
+   "publish_at": "2026-10-11T21:00+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q1"
+  },
+  {
+   "id": "reel-25-dentaire-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-25-dentaire-fr/video.mp4"
+   ],
+   "cover": "media/reel-25-dentaire-fr/cover.jpg",
+   "caption": "Faites ce calcul une seule fois : rendez-vous manqués ce mois-ci × valeur moyenne d'un plan de traitement × 12.\n\nUn fauteuil vide a un prix. Mieux vaut le connaître.\n\n👉 On fait ce calcul avec vous, sur vos chiffres du dernier mois. Plan de croissance offert, lien en bio.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
+   "publish_at": "2026-10-12T12:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q3"
+  },
+  {
+   "id": "reel-23-immo-luxe-da",
+   "type": "reel",
+   "files": [
+    "media/reel-23-immo-luxe-da/video.mp4"
+   ],
+   "cover": "media/reel-23-immo-luxe-da/cover.jpg",
+   "caption": "آخر شاري دار ريزيرفاسيون عندك، منين جا؟ الإشهار، الصالون، ولا سمسار؟\n\nاللي ما كيتحسبش ما كيتحسنش. وكتبقى تخلص كلشي بلا ما تعرف شنو اللي كيبيع.\n\n👈 كنشوفو منين كيجيو الشرايين ديالك وكنوريو ليك شنو خدام بصح. خطة النمو فابور، الرابط ف البيو.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
+   "publish_at": "2026-10-12T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q2"
+  },
+  {
+   "id": "reel-27-immo-luxe-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-27-immo-luxe-fr/video.mp4"
+   ],
+   "cover": "media/reel-27-immo-luxe-fr/cover.jpg",
+   "caption": "Un seul acheteur perdu après la visite. Faites le calcul : visites sans relance ce mois-ci × valeur moyenne d'une vente, puis récupérez-en une sur dix.\n\nUne visite sans suite a un prix.\n\n👉 On fait ce calcul avec vous, sur vos visites du dernier mois. Plan de croissance offert, lien en bio.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
+   "publish_at": "2026-10-12T21:00+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q3"
+  },
+  {
+   "id": "reel-30-esthetique-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-30-esthetique-fr/video.mp4"
+   ],
+   "cover": "media/reel-30-esthetique-fr/cover.jpg",
+   "caption": "Il y a deux types de centres : ceux qui comptent sur la mémoire de la réception, et ceux qui ont un système.\n\nUne réponse le jour même, un programme dès la première séance, un rappel avant chaque séance. Les mêmes étapes, chaque semaine.\n\n👉 On regarde comment vous travaillez et on vous montre le système, étape par étape. Plan de croissance offert, lien en bio.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
+   "publish_at": "2026-10-13T12:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q4"
+  },
+  {
+   "id": "carousel4-reno-construction",
+   "type": "carousel",
+   "files": [
+    "media/carousel4-reno-construction/01.jpg",
+    "media/carousel4-reno-construction/02.jpg",
+    "media/carousel4-reno-construction/03.jpg",
+    "media/carousel4-reno-construction/04.jpg",
+    "media/carousel4-reno-construction/05.jpg",
+    "media/carousel4-reno-construction/06.jpg",
+    "media/carousel4-reno-construction/07.jpg"
+   ],
+   "cover": null,
+   "caption": "Un devis sans réponse a un prix. Faites le calcul une fois : devis sans relance × valeur d'un chantier, puis récupérez-en un sur dix.\n\nLe client compare, et il signe avec celui qui le suit.\n\n👉 On fait ce calcul avec vous, sur vos devis des 3 derniers mois. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
+   "publish_at": "2026-10-13T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": null,
+   "story": true,
+   "approval": "pending",
+   "tag": "Q3"
+  },
+  {
+   "id": "reel-26-esthetique-da",
+   "type": "reel",
+   "files": [
+    "media/reel-26-esthetique-da/video.mp4"
+   ],
+   "cover": "media/reel-26-esthetique-da/cover.jpg",
+   "caption": "دير هاد الحساب مرة وحدة: الكليانات اللي دارو جلسة وحدة وما رجعوش × شحال كيسوى كور كامل × 12.\n\nالبلاصة الخاوية عندها ثمن. حسن تعرفو.\n\n👈 كنديرو هاد الحساب معاك، بالأرقام ديال الشهر اللي فات. خطة النمو فابور، الرابط ف البيو.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
+   "publish_at": "2026-10-13T21:00+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q3"
+  },
+  {
+   "id": "reel-32-reno-construction-fr",
+   "type": "reel",
+   "files": [
+    "media/reel-32-reno-construction-fr/video.mp4"
+   ],
+   "cover": "media/reel-32-reno-construction-fr/cover.jpg",
+   "caption": "Un devis signé, ce n'est pas de la chance. C'est trois étapes, chaque semaine.\n\nTrier chaque demande (budget, date, lieu), expliquer chaque devis, relancer à J+2 puis J+7.\n\n👉 On regarde comment vous travaillez et on vous montre le système, étape par étape. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
+   "publish_at": "2026-10-14T12:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q4"
+  },
+  {
+   "id": "reel-28-reno-construction-da",
+   "type": "reel",
+   "files": [
+    "media/reel-28-reno-construction-da/video.mp4"
+   ],
+   "cover": "media/reel-28-reno-construction-da/cover.jpg",
+   "caption": "دير هاد الحساب مرة وحدة: الدوفيات اللي صيفطتي بلا ما تعاود تتاصل × شحال كيسوى شانطي متوسط. رجع غير واحد من عشرة.\n\nالدوفي اللي ما تبعتيهش عندو ثمن.\n\n👈 كنديرو هاد الحساب معاك، بالدوفيات ديال 3 شهور اللي فاتو. خطة النمو فابور، الرابط ف البيو.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
+   "publish_at": "2026-10-14T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q3"
+  },
+  {
+   "id": "reel-29-dentaire-da",
+   "type": "reel",
+   "files": [
+    "media/reel-29-dentaire-da/video.mp4"
+   ],
+   "cover": "media/reel-29-dentaire-da/cover.jpg",
+   "caption": "كاين جوج أنواع ديال العيادات: اللي كتعتمد على الذاكرة ديال المساعدة، واللي عندها سيستيم.\n\nالطلب، الدوفي، الموعد: نفس الخطوات لكل مريض، كل سيمانة. والتشخيص كيبقى فيدك.\n\n👈 كنشوفو كيفاش خدامين دابا وكنوريو ليك السيستيم خطوة بخطوة. خطة النمو فابور، الرابط ف البيو.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
+   "publish_at": "2026-10-14T21:00+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q4"
+  },
+  {
+   "id": "reel-31-immo-luxe-da",
+   "type": "reel",
+   "files": [
+    "media/reel-31-immo-luxe-da/video.mp4"
+   ],
+   "cover": "media/reel-31-immo-luxe-da/cover.jpg",
+   "caption": "البيع الراقي ماشي زهر. هو خطوات كتعاود كل سيمانة.\n\nجواب فنفس الساعة، موعد جاي محدد بعد كل زيارة، وتبع نهار 3 ونهار 7.\n\n👈 كنشوفو كيفاش خدامين دابا وكنوريو ليك السيستيم خطوة بخطوة. خطة النمو فابور، الرابط ف البيو.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
+   "publish_at": "2026-10-15T12:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": "SS_PERFORMANCE",
+   "story": false,
+   "approval": "pending",
+   "tag": "Q4"
+  },
+  {
+   "id": "carousel4-dentaire",
+   "type": "carousel",
+   "files": [
+    "media/carousel4-dentaire/01.jpg",
+    "media/carousel4-dentaire/02.jpg",
+    "media/carousel4-dentaire/03.jpg",
+    "media/carousel4-dentaire/04.jpg",
+    "media/carousel4-dentaire/05.jpg",
+    "media/carousel4-dentaire/06.jpg",
+    "media/carousel4-dentaire/07.jpg"
+   ],
+   "cover": null,
+   "caption": "Deux types de cabinets : ceux qui comptent sur la mémoire de l'assistante, et ceux qui ont un parcours fixe.\n\nLa demande, le devis, le rendez-vous : les mêmes étapes pour chaque patient. Le diagnostic et la relation restent entre vos mains.\n\n👉 On regarde comment votre cabinet fonctionne et on vous montre le parcours, étape par étape. Plan de croissance offert, lien en bio.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
+   "publish_at": "2026-10-15T17:30+01:00",
+   "ai_label": true,
+   "status": "scheduled",
+   "trial": null,
+   "story": true,
+   "approval": "pending",
+   "tag": "Q4"
   }
  ]
 }
