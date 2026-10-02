@@ -702,7 +702,8 @@
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
-   "tag": "Q3"
+   "tag": "Q3",
+   "tg_msg": 104
   },
   {
    "id": "reel-29-dentaire-da",
@@ -718,7 +719,8 @@
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
-   "tag": "Q4"
+   "tag": "Q4",
+   "tg_msg": 106
   },
   {
    "id": "reel-31-immo-luxe-da",
@@ -734,7 +736,8 @@
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
-   "tag": "Q4"
+   "tag": "Q4",
+   "tg_msg": 108
   },
   {
    "id": "carousel4-dentaire",
@@ -756,7 +759,8 @@
    "trial": null,
    "story": true,
    "approval": "pending",
-   "tag": "Q4"
+   "tag": "Q4",
+   "tg_msg": 116
   }
  ]
 }
