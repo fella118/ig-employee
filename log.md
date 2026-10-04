@@ -8,3 +8,4 @@
 - 2026-10-03T16:30:53+00:00 PUBLISHED reel-02-dentaire-da (reel, trial) https://www.instagram.com/reel/DeCfgO3j02e/
 - 2026-10-03T20:00:48+00:00 PUBLISHED reel-07-reno-construction-fr (reel, trial) https://www.instagram.com/reel/DeC3ipMkaXh/
 - 2026-10-04T11:31:18+00:00 PUBLISHED reel-03-esthetique-fr (reel, trial) https://www.instagram.com/reel/DeEiADqCpv0/
+- 2026-10-04T16:31:30+00:00 PUBLISHED reel-06-immo-luxe-da (reel, trial) https://www.instagram.com/reel/DeFEWC5CAlQ/
