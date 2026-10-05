@@ -205,7 +205,7 @@
    "caption": "Implants, facettes, orthodontie : le blocage n'est presque jamais au fauteuil. Il est entre le devis et le rendez-vous.\n\n👉 On regarde le parcours de vos patients et on vous montre où ils décrochent. Plan de croissance offert, lien en bio.\n\n#dentistemaroc #cabinetdentaire #implantdentaire #orthodontie #sogixel",
    "publish_at": "2026-10-05T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled",
+   "status": "expired",
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
@@ -234,7 +234,8 @@
    "story": true,
    "approval": "pending",
    "tg_msg": 13,
-   "tag": "Q2"
+   "tag": "Q2",
+   "reminded": true
   },
   {
    "id": "reel-14-immo-luxe-da",
