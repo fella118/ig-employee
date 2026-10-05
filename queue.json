@@ -210,7 +210,8 @@
    "story": false,
    "approval": "pending",
    "tg_msg": 5,
-   "tag": "Q2"
+   "tag": "Q2",
+   "reminded": true
   },
   {
    "id": "carousel3-esthetique",
