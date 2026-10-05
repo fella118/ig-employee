@@ -252,7 +252,8 @@
    "story": false,
    "approval": "pending",
    "tg_msg": 15,
-   "tag": "Q2"
+   "tag": "Q2",
+   "reminded": true
   },
   {
    "id": "reel-11-esthetique-fr",
