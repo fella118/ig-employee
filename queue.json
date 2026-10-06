@@ -265,7 +265,7 @@
    "caption": "Votre machine est payée chaque mois. Les créneaux vides aussi. Une cure se vend avec un bilan, pas avec un tarif.\n\n👉 On regarde vos demandes et vos créneaux, et on vous montre où les cures se perdent. Plan de croissance offert, lien en bio.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
    "publish_at": "2026-10-06T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled",
+   "status": "expired",
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
@@ -294,7 +294,8 @@
    "story": true,
    "approval": "pending",
    "tg_msg": 25,
-   "tag": "Q2"
+   "tag": "Q2",
+   "reminded": true
   },
   {
    "id": "reel-16-reno-construction-da",
