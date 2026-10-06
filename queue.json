@@ -312,7 +312,8 @@
    "story": false,
    "approval": "pending",
    "tg_msg": 27,
-   "tag": "Q2"
+   "tag": "Q2",
+   "reminded": true
   },
   {
    "id": "reel-13-immo-luxe-fr",
