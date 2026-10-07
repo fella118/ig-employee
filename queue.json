@@ -325,7 +325,7 @@
    "caption": "Les demandes ne manquent pas. Il manque l'acheteur qualifié avant la visite.\n\n👉 On regarde le parcours de vos acheteurs et on vous montre où ils décrochent. Plan de croissance offert, lien en bio.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
    "publish_at": "2026-10-07T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled",
+   "status": "expired",
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
@@ -354,7 +354,8 @@
    "story": true,
    "approval": "pending",
    "tg_msg": 37,
-   "tag": "Q2"
+   "tag": "Q2",
+   "reminded": true
   },
   {
    "id": "reel-10-dentaire-da",
