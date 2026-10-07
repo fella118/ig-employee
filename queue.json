@@ -330,7 +330,8 @@
    "story": false,
    "approval": "pending",
    "tg_msg": 29,
-   "tag": "Q2"
+   "tag": "Q2",
+   "reminded": true
   },
   {
    "id": "carousel3-reno-construction",
