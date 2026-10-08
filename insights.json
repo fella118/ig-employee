@@ -626,6 +626,149 @@
      "ig_reels_video_view_total_time": 0
     }
    }
+  },
+  {
+   "date": "2026-10-08",
+   "followers": 470,
+   "media_count": 25,
+   "posts": {
+    "carousel-immo-luxe": {
+     "type": "carousel",
+     "trial": null,
+     "published_at": "2026-10-01T20:31:59+00:00",
+     "reach": 8,
+     "views": 27,
+     "likes": 3,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 3
+    },
+    "reel-01-dentaire-fr": {
+     "type": "reel",
+     "trial": "SS_PERFORMANCE",
+     "published_at": "2026-10-02T13:48:37+00:00",
+     "reach": 6,
+     "views": 6,
+     "likes": 1,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 851,
+     "ig_reels_video_view_total_time": 5106
+    },
+    "carousel-reno-construction": {
+     "type": "carousel",
+     "trial": null,
+     "published_at": "2026-10-02T16:30:48+00:00",
+     "reach": null,
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "saved": null,
+     "shares": null,
+     "total_interactions": null
+    },
+    "reel-04-esthetique-da": {
+     "type": "reel",
+     "trial": "SS_PERFORMANCE",
+     "published_at": "2026-10-02T20:01:02+00:00",
+     "reach": null,
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "saved": null,
+     "shares": null,
+     "total_interactions": null,
+     "ig_reels_avg_watch_time": null,
+     "ig_reels_video_view_total_time": null
+    },
+    "reel-05-immo-luxe-fr": {
+     "type": "reel",
+     "trial": "SS_PERFORMANCE",
+     "published_at": "2026-10-03T11:30:50+00:00",
+     "reach": 6,
+     "views": 6,
+     "likes": 2,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 2,
+     "ig_reels_avg_watch_time": 2028,
+     "ig_reels_video_view_total_time": 12169
+    },
+    "reel-02-dentaire-da": {
+     "type": "reel",
+     "trial": "SS_PERFORMANCE",
+     "published_at": "2026-10-03T16:30:53+00:00",
+     "reach": 6,
+     "views": 5,
+     "likes": 1,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 1187,
+     "ig_reels_video_view_total_time": 7125
+    },
+    "reel-07-reno-construction-fr": {
+     "type": "reel",
+     "trial": "SS_PERFORMANCE",
+     "published_at": "2026-10-03T20:00:48+00:00",
+     "reach": 6,
+     "views": 6,
+     "likes": 1,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 1207,
+     "ig_reels_video_view_total_time": 7242
+    },
+    "reel-03-esthetique-fr": {
+     "type": "reel",
+     "trial": "SS_PERFORMANCE",
+     "published_at": "2026-10-04T11:31:18+00:00",
+     "reach": 2,
+     "views": 2,
+     "likes": 1,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 578,
+     "ig_reels_video_view_total_time": 1156
+    },
+    "reel-06-immo-luxe-da": {
+     "type": "reel",
+     "trial": "SS_PERFORMANCE",
+     "published_at": "2026-10-04T16:31:30+00:00",
+     "reach": 1,
+     "views": 0,
+     "likes": 1,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 0,
+     "ig_reels_video_view_total_time": 0
+    },
+    "reel-08-reno-construction-da": {
+     "type": "reel",
+     "trial": "SS_PERFORMANCE",
+     "published_at": "2026-10-04T20:01:46+00:00",
+     "reach": 0,
+     "views": 0,
+     "likes": 1,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1,
+     "ig_reels_avg_watch_time": 0,
+     "ig_reels_video_view_total_time": 0
+    }
+   }
   }
  ]
 }
