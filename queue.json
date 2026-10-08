@@ -385,7 +385,7 @@
    "caption": "Vos soirées partent en devis, pour des chantiers qui ne se feront pas. Vous n'avez pas le temps de trier.\n\n👉 On regarde vos demandes et on vous montre lesquelles méritent un déplacement. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
    "publish_at": "2026-10-08T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled",
+   "status": "expired",
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
@@ -414,7 +414,8 @@
    "story": true,
    "approval": "pending",
    "tg_msg": 49,
-   "tag": "Q2"
+   "tag": "Q2",
+   "reminded": true
   },
   {
    "id": "reel-12-esthetique-da",
