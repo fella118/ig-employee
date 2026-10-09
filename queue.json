@@ -492,7 +492,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q1",
-   "tg_msg": 64
+   "tg_msg": 64,
+   "reminded": true
   },
   {
    "id": "reel-24-reno-construction-fr",
