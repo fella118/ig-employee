@@ -450,7 +450,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q1",
-   "tg_msg": 54
+   "tg_msg": 54,
+   "reminded": true
   },
   {
    "id": "carousel4-immo-luxe",
