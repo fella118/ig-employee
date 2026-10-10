@@ -510,7 +510,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q2",
-   "tg_msg": 66
+   "tg_msg": 66,
+   "reminded": true
   },
   {
    "id": "reel-21-dentaire-da",
