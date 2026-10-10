@@ -546,7 +546,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q1",
-   "tg_msg": 70
+   "tg_msg": 70,
+   "reminded": true
   },
   {
    "id": "reel-22-esthetique-fr",
