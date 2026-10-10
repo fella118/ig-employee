@@ -505,7 +505,7 @@
    "caption": "Votre dernier chantier signé, il vient d'où ? Bouche-à-oreille, Facebook, un panneau ?\n\nCe qui ne se mesure pas ne s'améliore pas. Sans la source, vous payez la pub sans savoir ce qu'elle fait signer.\n\n👉 On regarde d'où viennent vos chantiers et on vous montre ce qui marche vraiment. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
    "publish_at": "2026-10-10T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled",
+   "status": "expired",
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
@@ -528,7 +528,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q2",
-   "tg_msg": 68
+   "tg_msg": 68,
+   "reminded": true
   },
   {
    "id": "reel-19-immo-luxe-fr",
