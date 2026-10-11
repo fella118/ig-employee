@@ -606,7 +606,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q1",
-   "tg_msg": 82
+   "tg_msg": 82,
+   "reminded": true
   },
   {
    "id": "reel-25-dentaire-fr",
