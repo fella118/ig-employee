@@ -564,7 +564,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q2",
-   "tg_msg": 72
+   "tg_msg": 72,
+   "reminded": true
   },
   {
    "id": "carousel4-esthetique",
