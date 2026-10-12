@@ -660,7 +660,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q3",
-   "tg_msg": 88
+   "tg_msg": 88,
+   "reminded": true
   },
   {
    "id": "reel-30-esthetique-fr",
