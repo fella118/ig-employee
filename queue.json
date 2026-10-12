@@ -624,7 +624,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q3",
-   "tg_msg": 84
+   "tg_msg": 84,
+   "reminded": true
   },
   {
    "id": "reel-23-immo-luxe-da",
