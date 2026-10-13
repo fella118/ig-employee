@@ -678,7 +678,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q4",
-   "tg_msg": 90
+   "tg_msg": 90,
+   "reminded": true
   },
   {
    "id": "carousel4-reno-construction",
