@@ -673,7 +673,7 @@
    "caption": "Il y a deux types de centres : ceux qui comptent sur la mémoire de la réception, et ceux qui ont un système.\n\nUne réponse le jour même, un programme dès la première séance, un rappel avant chaque séance. Les mêmes étapes, chaque semaine.\n\n👉 On regarde comment vous travaillez et on vous montre le système, étape par étape. Plan de croissance offert, lien en bio.\n\n#centreesthetique #minceur #epilationlaser #maroc #sogixel",
    "publish_at": "2026-10-13T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled",
+   "status": "expired",
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
@@ -702,7 +702,8 @@
    "story": true,
    "approval": "pending",
    "tag": "Q3",
-   "tg_msg": 98
+   "tg_msg": 98,
+   "reminded": true
   },
   {
    "id": "reel-26-esthetique-da",
