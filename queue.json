@@ -720,7 +720,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q3",
-   "tg_msg": 100
+   "tg_msg": 100,
+   "reminded": true
   },
   {
    "id": "reel-32-reno-construction-fr",
