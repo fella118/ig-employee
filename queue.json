@@ -738,7 +738,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q4",
-   "tg_msg": 102
+   "tg_msg": 102,
+   "reminded": true
   },
   {
    "id": "reel-28-reno-construction-da",
