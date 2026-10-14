@@ -733,7 +733,7 @@
    "caption": "Un devis signé, ce n'est pas de la chance. C'est trois étapes, chaque semaine.\n\nTrier chaque demande (budget, date, lieu), expliquer chaque devis, relancer à J+2 puis J+7.\n\n👉 On regarde comment vous travaillez et on vous montre le système, étape par étape. Plan de croissance offert, lien en bio.\n\n#constructionmaroc #renovationmaroc #villa #btp #sogixel",
    "publish_at": "2026-10-14T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled",
+   "status": "expired",
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
@@ -756,7 +756,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q3",
-   "tg_msg": 104
+   "tg_msg": 104,
+   "reminded": true
   },
   {
    "id": "reel-29-dentaire-da",
