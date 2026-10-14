@@ -774,7 +774,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q4",
-   "tg_msg": 106
+   "tg_msg": 106,
+   "reminded": true
   },
   {
    "id": "reel-31-immo-luxe-da",
