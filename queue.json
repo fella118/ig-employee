@@ -787,7 +787,7 @@
    "caption": "البيع الراقي ماشي زهر. هو خطوات كتعاود كل سيمانة.\n\nجواب فنفس الساعة، موعد جاي محدد بعد كل زيارة، وتبع نهار 3 ونهار 7.\n\n👈 كنشوفو كيفاش خدامين دابا وكنوريو ليك السيستيم خطوة بخطوة. خطة النمو فابور، الرابط ف البيو.\n\n#immobilierdeluxe #promoteurimmobilier #mre #immobiliermaroc #sogixel",
    "publish_at": "2026-10-15T12:30+01:00",
    "ai_label": true,
-   "status": "scheduled",
+   "status": "expired",
    "trial": "SS_PERFORMANCE",
    "story": false,
    "approval": "pending",
@@ -816,7 +816,8 @@
    "story": true,
    "approval": "pending",
    "tag": "Q4",
-   "tg_msg": 116
+   "tg_msg": 116,
+   "reminded": true
   }
  ]
 }
