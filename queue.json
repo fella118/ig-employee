@@ -792,7 +792,8 @@
    "story": false,
    "approval": "pending",
    "tag": "Q4",
-   "tg_msg": 108
+   "tg_msg": 108,
+   "reminded": true
   },
   {
    "id": "carousel4-dentaire",
